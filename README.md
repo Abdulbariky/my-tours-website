@@ -1,4 +1,5 @@
-echo "# My Tours Website" >> README.md
+
+![ololokwe 18](https://github.com/Abdulbariky/my-tours-website/assets/162283176/c4a79510-6bde-4521-83ea-6171684053dd)
 
 # Tours and Hiking Services
 
@@ -11,7 +12,9 @@ This website has been developed using:
 * CSS
 * JS
 
-## live link  
+## live link
+
+[Hiking.tours](https://abdulbariky.github.io/my-tours-website)
  
  ### Requirements Needed
 

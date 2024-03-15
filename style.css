@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/back-view-hiker-watching-sunset-from-mountain.jpg);
+    background-position: bottom;
+    background-size:cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}

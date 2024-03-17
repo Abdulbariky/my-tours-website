@@ -12,6 +12,17 @@ This website has been developed using:
 * CSS
 * JS
 
+## javascript
+
+-onclick events
+
+## resources
+-[pictures](https://www.freepik.com)
+
+-[Fonts](https://fonts.google.com)
+
+-[icons](https://boxicons.com)
+
 ## live link
 
 [Hiking.tours](https://abdulbariky.github.io/my-tours-website)

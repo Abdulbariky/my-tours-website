@@ -17,7 +17,7 @@
     background: transparent;
     display: flex;
     align-items: center;
-    z-index: 100;    
+    z-index: 100;
 }
 
 
@@ -44,7 +44,7 @@
     border-radius: 6px;
     text-decoration: none;
     margin-right: 10px;
-    transition: .5s; 
+    transition: .5s;
 }
 
 .Social-media a:hover {
@@ -54,12 +54,12 @@
 .Social-media a i {
     font-size: 20px;
     color: #fff;
-    transition: .5s; 
+    transition: .5s;
 }
 
 .Social-media a:hover i {
     color: #444;
-   
+
 }
 
 .navbar a {
@@ -107,17 +107,17 @@
 }
 
 
-.slide  .left-info {
+.slide .left-info {
     position: absolute;
     top: 0;
     left: 0;
     width: 50%;
     height: 100%;
     transform: translateX(-100%);
-    transition: 0s;   
+    transition: 0s;
 }
 
-.slide.active  .left-info {
+.slide.active .left-info {
     transform: translateX(0);
     z-index: 1;
     transition: 0s;
@@ -133,20 +133,25 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    -webkit-mask: linear-gradient(#000 0 0),linear-gradient(#000 0 0);
-    -webkit-mask-clip: text,padding-box;
+    -webkit-mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+    -webkit-mask-clip: text, padding-box;
     -webkit-mask-composite: xor;
+    mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+    mask-mode: alpha;
+    mask-clip: text, padding-box;
+    mask-composite: exclude;
+
     padding-right: 20px;
-    
+
 }
 
 .penetrate-blur h1 {
     font-size: 250px;
     text-shadow: 0 0 10px rgba(255, 255, 255, .8);
-   
+
 }
 
-.left-info .content{
+.left-info .content {
     position: absolute;
     bottom: 8%;
     left: 10%;
@@ -211,7 +216,7 @@
         0 6px 1px rgba(0, 0, 0, .1),
         0 0 5px rgba(0, 0, 0, .1),
         0 1px 3px rgba(0, 0, 0, .3),
-        0 3px 5px rgba(0, 0, 0, .2),       
+        0 3px 5px rgba(0, 0, 0, .2),
         0 5px 10px rgba(0, 0, 0, .25),
         0 10px 10px rgba(0, 0, 0, .2),
         0 20px 20px rgba(0, 0, 0, .15);

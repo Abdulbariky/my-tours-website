@@ -25,7 +25,8 @@ This website has been developed using:
 
 ## live link
 
-[Hiking.tours](https://abdulbariky.github.io/my-tours-website)
+[my tours website](https://abdulbariky.github.io/my-tours-website/)
+
  
  ### Requirements Needed
 
